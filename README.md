@@ -16,3 +16,5 @@ implementation details:
 1. querying RestDB - data is retrieved using RestDB's query language. I set up a dictionary of fields I want to check in the database. Then, I used the JSON stringify method to translate the dictionary to RestDB's language. 
 2. display table -  I initiated three arrays. myArray stores the originally queries data from the search tab. filteredArray stores the data after filtering its activiity. displayArray stores the 10 merchants that are currently being displayed. 
 3. search tab - an event handler takes care of every key release. This include when user backspaces in the tab. The query will reset itself to default whenever a key is pressed i the search tab. 
+
+Thank you viewing my program. Hope you enjoying playing with it! 
