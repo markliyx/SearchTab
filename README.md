@@ -17,4 +17,9 @@ implementation details:
 2. display table -  I initiated three arrays. myArray stores the originally queries data from the search tab. filteredArray stores the data after filtering its activiity. displayArray stores the 10 merchants that are currently being displayed. 
 3. search tab - an event handler takes care of every key release. This include when user backspaces in the tab. The query will reset itself to default whenever a key is pressed i the search tab. 
 
+Assumptions: 
+1. The search is case sensitive. I'm not sure to what flexibility we want our search to be. By the example given in the deliverable document, I have made the following assumptions. 
+2. We do not want to query all the data from the database. Again, I wasn't sure how similar (exactly) the search results need to be, so I did not implement algorithm like Jaccard similarity to find similar formed search results. 
+3. The Emulating database only give the data needed. For the sake of simplicity, I created a JSON doscument of all the elements required by the table, omitting the number of rows on in the page and etc. 
+
 Thank you viewing my program. Hope you enjoying playing with it! 
